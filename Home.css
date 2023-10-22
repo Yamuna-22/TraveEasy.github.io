@@ -1,0 +1,237 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+     font-size: 62.5%;  
+     /* here 62.5% is equal to 10px ...the common font size */
+    background-color: #ddd;
+}
+/* ###### Other Utility classes####### */
+.text-red{
+    color:#e63946;
+}
+.text-black{
+    color:#333;
+}
+.text-gray{
+    color:#555;
+}
+.text-white{
+    color:#f4f4f4;
+}
+/* ##########utility container class##### */
+.container1{
+max-width:1200px;
+/* max width help us when even we reduce the size of  */
+width:90%;
+margin:0 auto;
+}
+header.box1{
+ height:95vh;
+ background: linear-gradient(rgba(52, 1, 1, 0.5),rgba(73, 60, 60, 0.5)), url('./FromPixels/pexels-pierre-blaché-2901215.jpg');
+ /* linear gradient to add color,improve the gradient of the cover */
+ background-repeat: no-repeat; 
+ background-size: cover;
+ /* if the above element is not used...you get a part of the image in magnified view */
+ background-position:center; 
+ position: relative; 
+ background-color: #ddd;
+}
+nav.mina0{
+font-size:2rem;
+color:#ddd;
+float:right;
+margin-left:10px;
+}
+h1.logo{
+    font-size: 4rem;
+    color: white;
+}
+ul li.mina{
+list-style: none;
+/* to remove the default bullets */
+margin-right: 25px;
+display:inline-block;
+}
+a{
+    text-decoration: none;
+    /* to remove the default underlines */
+}
+ .mina a:link{
+    color:white;
+}
+ .mina a:visited{
+    color:white;
+    }
+.mina a:hover{
+    color:#e6396a;
+}
+header.box1{
+    content:'';
+    clear:both;
+}
+ul.mina a:hover{
+    border-bottom: 1px solid white;
+} 
+.ans{
+border:2px solid red;
+border-radius:10px;
+text-decoration: none;
+background-color:#ddd;
+color:red;
+padding:3px;
+font-size: 1.7rem;
+}
+h2{
+    text-align:center;
+    font-size: 3rem;
+}
+div.middle p{
+    font-size: 1.7rem;
+}
+ div.middle{
+    
+   float: calc(50,100,109);
+
+} 
+.showcase{
+    
+    padding:10rem 0;
+    
+}
+.middle{
+    position:absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    /* tranform translate is used to adjut the x and y cordinates with respect to the box right sorrounding it to and bring the elemnets to exact center.  */
+
+}
+ .showcase div.row{
+    height:350px;
+    width:82%;
+    position:relative;
+    left:9%;
+    margin:10px;
+    content: '';
+    clear: both;
+    background-color:white ;
+    box-shadow: 5px 5px 20px 0px rgba(85, 85, 85, 0.888);
+}
+.row1 .image-box,.row2 .text-box{
+
+    margin-bottom:5rem;
+    float:left;
+    width:50%;
+    height:100%;
+    
+}
+.row2 .image-box,.row1 .text-box{
+    margin-bottom:5rem;
+    float:right;
+    width:50%;
+    height:100%;
+    
+}
+.text-box{
+    padding:3rem;
+    display: inline-block;
+}
+.row1 .image-box img , .row2 .image-box img{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    /* so as to cover the whole box assigned to it */
+    box-sizing: border-box;
+}
+.row .text-box h1{
+ text-transform: uppercase;
+ color:black;
+font-size: large;
+letter-spacing: 2px;
+font-weight: 500;
+}
+.row .text-box .para{
+    font-size: medium;
+    
+}
+.text-box a.more{
+    color:red;
+    border:2px solid red;
+    border-radius:10px;
+    background-color:white;
+    padding: 3px;
+    font-size: small;
+    text-transform: uppercase;
+}
+.middle .ans a:hover{
+background-color: #fcf3f2;
+}
+.text-box .more a:hover{
+    background-color:#fcf3f2 ;
+    }
+.big-box{
+    font-size: small;
+    display: inline-block;
+    height:135px;
+    width:82%;
+    position:relative;
+    left:9%;
+    content: '';
+    clear: both;
+    text-align: center;
+    color: white;
+}
+.features .boxA ,.boxB, .boxC{
+    
+    float:left;
+    width:33.33333%;
+    margin-top:10px;
+    padding:1px;
+    
+}
+ .features {
+    background-color: white;
+} 
+.features .big-box .head{
+    font-size: large; 
+}
+.boxA , .boxC{
+background-color: #333;
+padding:3px;
+}
+.boxB{
+    background-color: #e63946;
+    padding:3px;  
+}
+features::after{
+    content:'';
+    clear:both;
+}
+footer .downs{
+    height:110px;
+    width:1200px;
+    background-color:#333;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width:82%;
+}
+footer{
+    background-color: white;
+}
+.links i{
+    padding: 1rem;
+
+}
+
+    

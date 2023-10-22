@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;    
+}
+body{
+    font-family: 'Montserrat',
+     sans-serif;
+}
+.bg-dark{
+    background-color: #263238;
+}
+.container1{
+    max-width:1200px;
+    /* max width help us when 
+    even we reduce the size of  */
+    width:90%;
+    margin:0 auto;
+    }
+
+ .box1{
+    height:9vh;
+ }
+ h1.logo{
+    font-size: 1rem;
+    color: white;
+}
+ul li.mina{
+list-style: none;
+/* to remove the default bullets */
+margin-right: 25px;
+display:inline-block;
+}
+a{
+    text-decoration: none;
+    /* to remove the default 
+    underlines */
+}
+ .mina a:link{
+    color:white;
+}
+ .mina a:visited{
+    color:white;
+    }
+.mina a:hover{
+    color:#e6396a;
+}
+.box1::after{
+    content:'';
+    clear:both;
+}
+ul.mina a:hover{
+    border-bottom: 1px solid
+     white;
+} 
+
+nav.mina0{
+    font-size:small;
+    color:#ddd;
+    float:right;
+    margin-left:10px;
+    }
+h1.logo{
+    font-size: large;
+}
+header{
+margin-bottom:25px;
+}
+section h1{
+    font-weight: 300;
+    border-bottom:5px solid#e6396a;
+    margin-bottom:20px;
+}
+
+.ul1, .ul2{
+    float:left;
+    width:50%; 
+    list-style-type: none;
+}
+.uls::after{
+    content: '';
+    clear:both;
+    display: block;
+}
+.uls{
+    text-align: center;
+    padding:2em;
+}
+.uls li::before{
+    content:'\2713';
+    font-weight: bold;
+    padding-right: 2rem;
+    color:#e6396a;
+
+}
+.conuty{
+    width:25%;
+    float:left;
+    text-align: center;
+}
+.counts .conuty ::after{
+    content: '';
+    clear:both;
+    display: block;
+}
+span{
+    color: #e6396a;
+    font-weight:bolder;
+}
+ section div.counts{
+margin-bottom:5rem;
+}
+section.banner-me{
+    border-left: #263238;
+    background-color:#e6396a;
+    color:black;
+}
+.banner-left{
+float:left;
+}
+  section div .banner-right{
+float:right;
+}
+.banner::after{
+    content:'';
+    clear:"both";
+    display: block;
+
+}

@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-dark{
+    background-color: #263238;
+}
+.container1{
+    max-width:1200px;
+    /* max width help us when even we reduce the size of  */
+    width:90%;
+    margin:0 auto;
+    }
+
+ .box1{
+    height:9vh;
+ }
+ h1.logo{
+    font-size: 1rem;
+    color: white;
+}
+ul li.mina{
+list-style: none;
+/* to remove the default bullets */
+margin-right: 25px;
+display:inline-block;
+}
+a{
+    text-decoration: none;
+    /* to remove the default underlines */
+}
+ .mina a:link{
+    color:white;
+}
+ .mina a:visited{
+    color:white;
+    }
+.mina a:hover{
+    color:#e6396a;
+}
+.box1::after{
+    content:'';
+    clear:both;
+}
+ul.mina a:hover{
+    border-bottom: 1px solid white;
+} 
+
+nav.mina0{
+    font-size:small;
+    color:#ddd;
+    float:right;
+    margin-left:10px;
+    }
+h1.logo{
+    font-size: large;
+}
+header{
+margin-bottom:25px;
+}
+
+section .big{
+    padding:5rem 0;
+}
+.info{
+    float:left;
+    width:50%; 
+    padding:2em;
+}
+.form{
+    float:left;
+    width:50%;
+    padding:2em;
+}
+
+section .big ::after{
+   content: '';
+   clear:both;
+   display: block;
+}
+section .big .form .h1{
+    border-bottom:2px solid #e6396a;
+}
+.form .btn::after{
+    content: 'border';
+}
+h2{
+    border-bottom:5px solid#e6396a;
+}
+.form{
+    text-align: justify;
+    margin-left: 100px;
+}
